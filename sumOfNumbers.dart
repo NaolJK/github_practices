@@ -8,7 +8,12 @@ void main(){
 }
 
 double sum(int n){
-  double ans = (n * (n + 1)) / 2;
+  double ans = 0;
+  for (int i = 1; i <= n; ++i){
+     ans+=i;
+
+ }
+
 
   return ans;
 }
